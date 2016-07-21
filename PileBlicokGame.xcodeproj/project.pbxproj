@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7BA9CAE1D3E147F00A8E663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA9CAD1D3E147F00A8E663 /* AppDelegate.swift */; };
+		B7BA9CB01D3E147F00A8E663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA9CAF1D3E147F00A8E663 /* ViewController.swift */; };
+		B7BA9CB31D3E147F00A8E663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BA9CB11D3E147F00A8E663 /* Main.storyboard */; };
+		B7BA9CB51D3E147F00A8E663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BA9CB41D3E147F00A8E663 /* Assets.xcassets */; };
+		B7BA9CB81D3E147F00A8E663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BA9CB61D3E147F00A8E663 /* LaunchScreen.storyboard */; };
+		B7BA9CC31D3E147F00A8E663 /* PileBlicokGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA9CC21D3E147F00A8E663 /* PileBlicokGameTests.swift */; };
+		B7BA9CCE1D3E147F00A8E663 /* PileBlicokGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA9CCD1D3E147F00A8E663 /* PileBlicokGameUITests.swift */; };
+		B7BA9CDC1D3E196500A8E663 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA9CDB1D3E196500A8E663 /* GameView.swift */; };
+		B7BA9CDE1D3F1FE900A8E663 /* zhu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7BA9CDD1D3F1FE900A8E663 /* zhu.mp3 */; };
+		B7BA9CE01D3F23FE00A8E663 /* down0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BA9CDF1D3F23FE00A8E663 /* down0.jpg */; };
+		B7BA9CE21D3F2AF900A8E663 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA9CE11D3F2AF900A8E663 /* Block.swift */; };
+		B7BA9D5A1D3F822B00A8E663 /* zhu1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7BA9D591D3F822B00A8E663 /* zhu1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7BA9CBF1D3E147F00A8E663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7BA9CA21D3E147F00A8E663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BA9CA91D3E147F00A8E663;
+			remoteInfo = PileBlicokGame;
+		};
+		B7BA9CCA1D3E147F00A8E663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7BA9CA21D3E147F00A8E663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BA9CA91D3E147F00A8E663;
+			remoteInfo = PileBlicokGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7BA9CAA1D3E147F00A8E663 /* PileBlicokGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PileBlicokGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BA9CAD1D3E147F00A8E663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7BA9CAF1D3E147F00A8E663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7BA9CB21D3E147F00A8E663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7BA9CB41D3E147F00A8E663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7BA9CB71D3E147F00A8E663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7BA9CB91D3E147F00A8E663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BA9CBE1D3E147F00A8E663 /* PileBlicokGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PileBlicokGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BA9CC21D3E147F00A8E663 /* PileBlicokGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PileBlicokGameTests.swift; sourceTree = "<group>"; };
+		B7BA9CC41D3E147F00A8E663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BA9CC91D3E147F00A8E663 /* PileBlicokGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PileBlicokGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BA9CCD1D3E147F00A8E663 /* PileBlicokGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PileBlicokGameUITests.swift; sourceTree = "<group>"; };
+		B7BA9CCF1D3E147F00A8E663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BA9CDB1D3E196500A8E663 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B7BA9CDD1D3F1FE900A8E663 /* zhu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhu.mp3; sourceTree = "<group>"; };
+		B7BA9CDF1D3F23FE00A8E663 /* down0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = down0.jpg; sourceTree = "<group>"; };
+		B7BA9CE11D3F2AF900A8E663 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		B7BA9D591D3F822B00A8E663 /* zhu1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhu1.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7BA9CA71D3E147F00A8E663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BA9CBB1D3E147F00A8E663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BA9CC61D3E147F00A8E663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7BA9CA11D3E147F00A8E663 = {
+			isa = PBXGroup;
+			children = (
+				B7BA9CAC1D3E147F00A8E663 /* PileBlicokGame */,
+				B7BA9CC11D3E147F00A8E663 /* PileBlicokGameTests */,
+				B7BA9CCC1D3E147F00A8E663 /* PileBlicokGameUITests */,
+				B7BA9CAB1D3E147F00A8E663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7BA9CAB1D3E147F00A8E663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7BA9CAA1D3E147F00A8E663 /* PileBlicokGame.app */,
+				B7BA9CBE1D3E147F00A8E663 /* PileBlicokGameTests.xctest */,
+				B7BA9CC91D3E147F00A8E663 /* PileBlicokGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7BA9CAC1D3E147F00A8E663 /* PileBlicokGame */ = {
+			isa = PBXGroup;
+			children = (
+				B7BA9CDF1D3F23FE00A8E663 /* down0.jpg */,
+				B7BA9CDD1D3F1FE900A8E663 /* zhu.mp3 */,
+				B7BA9D591D3F822B00A8E663 /* zhu1.mp3 */,
+				B7BA9CAD1D3E147F00A8E663 /* AppDelegate.swift */,
+				B7BA9CAF1D3E147F00A8E663 /* ViewController.swift */,
+				B7BA9CDB1D3E196500A8E663 /* GameView.swift */,
+				B7BA9CE11D3F2AF900A8E663 /* Block.swift */,
+				B7BA9CB11D3E147F00A8E663 /* Main.storyboard */,
+				B7BA9CB41D3E147F00A8E663 /* Assets.xcassets */,
+				B7BA9CB61D3E147F00A8E663 /* LaunchScreen.storyboard */,
+				B7BA9CB91D3E147F00A8E663 /* Info.plist */,
+			);
+			path = PileBlicokGame;
+			sourceTree = "<group>";
+		};
+		B7BA9CC11D3E147F00A8E663 /* PileBlicokGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BA9CC21D3E147F00A8E663 /* PileBlicokGameTests.swift */,
+				B7BA9CC41D3E147F00A8E663 /* Info.plist */,
+			);
+			path = PileBlicokGameTests;
+			sourceTree = "<group>";
+		};
+		B7BA9CCC1D3E147F00A8E663 /* PileBlicokGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BA9CCD1D3E147F00A8E663 /* PileBlicokGameUITests.swift */,
+				B7BA9CCF1D3E147F00A8E663 /* Info.plist */,
+			);
+			path = PileBlicokGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7BA9CA91D3E147F00A8E663 /* PileBlicokGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BA9CD21D3E147F00A8E663 /* Build configuration list for PBXNativeTarget "PileBlicokGame" */;
+			buildPhases = (
+				B7BA9CA61D3E147F00A8E663 /* Sources */,
+				B7BA9CA71D3E147F00A8E663 /* Frameworks */,
+				B7BA9CA81D3E147F00A8E663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PileBlicokGame;
+			productName = PileBlicokGame;
+			productReference = B7BA9CAA1D3E147F00A8E663 /* PileBlicokGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7BA9CBD1D3E147F00A8E663 /* PileBlicokGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BA9CD51D3E147F00A8E663 /* Build configuration list for PBXNativeTarget "PileBlicokGameTests" */;
+			buildPhases = (
+				B7BA9CBA1D3E147F00A8E663 /* Sources */,
+				B7BA9CBB1D3E147F00A8E663 /* Frameworks */,
+				B7BA9CBC1D3E147F00A8E663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7BA9CC01D3E147F00A8E663 /* PBXTargetDependency */,
+			);
+			name = PileBlicokGameTests;
+			productName = PileBlicokGameTests;
+			productReference = B7BA9CBE1D3E147F00A8E663 /* PileBlicokGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7BA9CC81D3E147F00A8E663 /* PileBlicokGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BA9CD81D3E147F00A8E663 /* Build configuration list for PBXNativeTarget "PileBlicokGameUITests" */;
+			buildPhases = (
+				B7BA9CC51D3E147F00A8E663 /* Sources */,
+				B7BA9CC61D3E147F00A8E663 /* Frameworks */,
+				B7BA9CC71D3E147F00A8E663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7BA9CCB1D3E147F00A8E663 /* PBXTargetDependency */,
+			);
+			name = PileBlicokGameUITests;
+			productName = PileBlicokGameUITests;
+			productReference = B7BA9CC91D3E147F00A8E663 /* PileBlicokGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7BA9CA21D3E147F00A8E663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Giant;
+				TargetAttributes = {
+					B7BA9CA91D3E147F00A8E663 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B7BA9CBD1D3E147F00A8E663 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B7BA9CA91D3E147F00A8E663;
+					};
+					B7BA9CC81D3E147F00A8E663 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B7BA9CA91D3E147F00A8E663;
+					};
+				};
+			};
+			buildConfigurationList = B7BA9CA51D3E147F00A8E663 /* Build configuration list for PBXProject "PileBlicokGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7BA9CA11D3E147F00A8E663;
+			productRefGroup = B7BA9CAB1D3E147F00A8E663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7BA9CA91D3E147F00A8E663 /* PileBlicokGame */,
+				B7BA9CBD1D3E147F00A8E663 /* PileBlicokGameTests */,
+				B7BA9CC81D3E147F00A8E663 /* PileBlicokGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7BA9CA81D3E147F00A8E663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BA9CDE1D3F1FE900A8E663 /* zhu.mp3 in Resources */,
+				B7BA9CB81D3E147F00A8E663 /* LaunchScreen.storyboard in Resources */,
+				B7BA9D5A1D3F822B00A8E663 /* zhu1.mp3 in Resources */,
+				B7BA9CB51D3E147F00A8E663 /* Assets.xcassets in Resources */,
+				B7BA9CB31D3E147F00A8E663 /* Main.storyboard in Resources */,
+				B7BA9CE01D3F23FE00A8E663 /* down0.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BA9CBC1D3E147F00A8E663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BA9CC71D3E147F00A8E663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7BA9CA61D3E147F00A8E663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BA9CB01D3E147F00A8E663 /* ViewController.swift in Sources */,
+				B7BA9CE21D3F2AF900A8E663 /* Block.swift in Sources */,
+				B7BA9CDC1D3E196500A8E663 /* GameView.swift in Sources */,
+				B7BA9CAE1D3E147F00A8E663 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BA9CBA1D3E147F00A8E663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BA9CC31D3E147F00A8E663 /* PileBlicokGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BA9CC51D3E147F00A8E663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BA9CCE1D3E147F00A8E663 /* PileBlicokGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7BA9CC01D3E147F00A8E663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7BA9CA91D3E147F00A8E663 /* PileBlicokGame */;
+			targetProxy = B7BA9CBF1D3E147F00A8E663 /* PBXContainerItemProxy */;
+		};
+		B7BA9CCB1D3E147F00A8E663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7BA9CA91D3E147F00A8E663 /* PileBlicokGame */;
+			targetProxy = B7BA9CCA1D3E147F00A8E663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7BA9CB11D3E147F00A8E663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7BA9CB21D3E147F00A8E663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7BA9CB61D3E147F00A8E663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7BA9CB71D3E147F00A8E663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7BA9CD01D3E147F00A8E663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7BA9CD11D3E147F00A8E663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7BA9CD31D3E147F00A8E663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PileBlicokGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JadeFor.PileBlicokGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7BA9CD41D3E147F00A8E663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PileBlicokGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JadeFor.PileBlicokGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7BA9CD61D3E147F00A8E663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PileBlicokGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JadeFor.PileBlicokGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PileBlicokGame.app/PileBlicokGame";
+			};
+			name = Debug;
+		};
+		B7BA9CD71D3E147F00A8E663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PileBlicokGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JadeFor.PileBlicokGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PileBlicokGame.app/PileBlicokGame";
+			};
+			name = Release;
+		};
+		B7BA9CD91D3E147F00A8E663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PileBlicokGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JadeFor.PileBlicokGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PileBlicokGame;
+			};
+			name = Debug;
+		};
+		B7BA9CDA1D3E147F00A8E663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PileBlicokGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JadeFor.PileBlicokGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PileBlicokGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7BA9CA51D3E147F00A8E663 /* Build configuration list for PBXProject "PileBlicokGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BA9CD01D3E147F00A8E663 /* Debug */,
+				B7BA9CD11D3E147F00A8E663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BA9CD21D3E147F00A8E663 /* Build configuration list for PBXNativeTarget "PileBlicokGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BA9CD31D3E147F00A8E663 /* Debug */,
+				B7BA9CD41D3E147F00A8E663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7BA9CD51D3E147F00A8E663 /* Build configuration list for PBXNativeTarget "PileBlicokGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BA9CD61D3E147F00A8E663 /* Debug */,
+				B7BA9CD71D3E147F00A8E663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7BA9CD81D3E147F00A8E663 /* Build configuration list for PBXNativeTarget "PileBlicokGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BA9CD91D3E147F00A8E663 /* Debug */,
+				B7BA9CDA1D3E147F00A8E663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7BA9CA21D3E147F00A8E663 /* Project object */;
+}
